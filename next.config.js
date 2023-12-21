@@ -7,8 +7,16 @@ const nextConfig = {
         hostname: "www.jennexplores.com",
       },
       { protocol: "https", hostname: "upload.wikimedia.org" },
+      {
+        protocol: "https",
+        hostname: "cloudflare-ipfs.com",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
